@@ -15,7 +15,7 @@ public class ProbandoLibreria {
         ProyectoLibreria l = new ProyectoLibreria();
         l.Conectar("jdbc:mysql://localhost","futbol", "root","pedrapedra6");
         //l.buscar("nombre","jugador","idjugador","10");
-        //l.Insertar("jugador", "idjugador,nombre,dorsal,posicion,goles,asistencias,partidosjugados", "10,'Jota',11,'delantero',100,200,1000");
+        l.Insertar("jugador", "idjugador,nombre,dorsal,posicion,goles,asistencias,partidosjugados", "10,'Jota',11,'delantero',100,200,1000");
        //l.Borrar("jugador","idjugador",10);
         //l.Actualizar("jugador", "nombre", "Fer", "idjugador", 5);
        
